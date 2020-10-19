@@ -1,0 +1,35 @@
+.header {
+  margin: 0 4% ;
+  background-color: #d6a54e67;
+  height: 13%;
+
+}
+
+
+.nav {
+  text-align: center;
+  justify-content: center;
+  float: right;
+
+}
+
+
+.ul {
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.li {
+  display: inline;
+  text-transform: uppercase;
+  list-style: none;
+  margin-left: 4px;
+  padding: 9px 13px;
+  border-radius: 5% 5%;
+  border: 2px solid #d6e54e67;
+  background-color: #d6a54e67;
+  color: black;
+
+}

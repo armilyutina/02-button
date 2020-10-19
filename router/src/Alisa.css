@@ -1,0 +1,42 @@
+
+.container {
+  margin: 3% 5% 0 10%;
+  width: 900px;
+}
+
+.slider-container {
+  overflow: hidden;
+  background-color: pink;
+  margin: 9% 10% 1% 10%;
+  width: 1000px;
+}
+
+
+.slider-track {
+  display: flex;
+  background-color: yellow;
+  transition: .2s;
+}
+
+
+.slider-item {
+    min-width: 200px;
+    height: 100px;
+}
+
+
+.slider-item:nth-child(3n){ background-color: lightblue;}
+.slider-item:nth-child(3n+1){ background-color: grey}
+.slider-item:nth-child(3n+2){ background-color: red;}
+
+
+
+
+.button-control {
+  justify-content: center;
+  height: 30px;
+  width: 150px;
+}
+
+.button-control .prev { background-color: lightpink;}
+.button-control .next { background-color: lightgrey;}

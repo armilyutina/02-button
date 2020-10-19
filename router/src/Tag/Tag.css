@@ -1,0 +1,43 @@
+.tag {
+  margin: 5% 25%;
+  height: 960px;
+  width: 950px;
+  border-radius: 5% 5%;
+  background-color: lightblue;
+}
+
+
+img {
+    border-radius: 150px;
+}
+
+.img {
+  padding: 1% 4% 2% 4%;
+  height: 70%;
+  width: 92%;
+}
+
+
+.explanation {
+  color: black;
+  font-size: 17px;
+  margin: 3%;
+  font-weight: 200;
+
+}
+
+.title, .date {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1% 30%;
+  text-shadow: 2px 2px 2px #ccc;
+
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1% 45%;
+  text-shadow: 2px 2px 2px #ccc;
+
+}
